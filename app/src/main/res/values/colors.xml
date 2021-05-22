@@ -4,4 +4,29 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="white">#fff</color>
+
+    <!-- Style for "rippleLine " -->
+    <color name="line1">#ff8585</color>
+    <color name="line2">#00bf46</color>
+    <color name="line3">#ff60df</color>
+    <color name="line4">#1373d4</color>
+
+
+    <!-- Style for "rectangle_" -->
+
+
+    <color name="Search">#d41367</color>
+    <color name="MINIMAL">#1373d4</color>
+    <color name="DARK">#020101</color>
+    <color name="COLORS">#d687a9</color>
+    <color name="NATURE">#020101</color>
+    <color name="SEASONS">#2a4494</color>
+    <color name="ART">#b486ab</color>
+    <color name="SPACE">#011936</color>
+    <color name="FLORAL_ENVY">#ffbabf</color>
+    <color name="WILDLIFE">#345e5a</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
 </resources>

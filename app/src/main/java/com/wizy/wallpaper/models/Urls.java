@@ -2,13 +2,18 @@ package com.wizy.wallpaper.models;
 
 import com.wizy.wallpaper.Util.ScreenResolution;
 
-public class Urls {
+import java.io.Serializable;
+
+public class Urls  implements Serializable {
 
     private String raw;
     private String full;
     private String regular;
     private String small;
     private String thumb;
+
+    public Urls() {}
+
 
     public String getFull() {
         return full;

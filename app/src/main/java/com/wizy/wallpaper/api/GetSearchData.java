@@ -29,6 +29,7 @@ import static com.wizy.wallpaper.BuildConfig.CLIENT_ID;
 public class GetSearchData {
     private static Retrofit retrofit = null;
     private static  X509TrustManager trustManager;
+
     private static Retrofit getRetrofitClient() {
         if (retrofit == null) {
             try {

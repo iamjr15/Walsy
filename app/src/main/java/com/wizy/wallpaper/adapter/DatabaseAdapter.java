@@ -45,7 +45,7 @@ public class DatabaseAdapter extends SQLiteOpenHelper {
         }
     }
 
-    synchronized void closeConnection() {
+    public synchronized void closeConnection() {
         if (sSingleton != null) {
             sSingleton.close();
             mDb.close();
@@ -83,7 +83,7 @@ public class DatabaseAdapter extends SQLiteOpenHelper {
      * @param name image id, to check prevention
      * @return if image exist return true
      */
-    boolean checkItemInDb(CharSequence name) {
+    public boolean checkItemInDb(CharSequence name) {
          Cursor cursor = mDb.query(ITEM_TABLE, new String[]{ITEM_KEY_ROWID, IMGID,
                         URL}, IMGID + "=?", new String[]{String.valueOf(name)}, null, null,
                 null);
@@ -97,7 +97,7 @@ public class DatabaseAdapter extends SQLiteOpenHelper {
         mDb.delete(ITEM_TABLE, IMGID + "=?", whereArgs);
     }
 
-    long insertItemRecord(String img_id, String url) {
+    public long insertItemRecord(String img_id, String url) {
         ContentValues initialItemValues = new ContentValues();
         initialItemValues.put(IMGID,img_id);
         initialItemValues.put(URL, url);

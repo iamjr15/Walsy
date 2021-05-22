@@ -1,0 +1,58 @@
+com/wizy/wallpaper/adapter/CardAdapter.java
+ com.wizy.wallpaper.adapter.CardAdapter
+ com.wizy.wallpaper.adapter.CardAdapter$1
+ com.wizy.wallpaper.adapter.CardAdapter$ViewHolder
+com/wizy/wallpaper/models/Search.java
+ com.wizy.wallpaper.models.Search
+com/wizy/wallpaper/models/Results.java
+ com.wizy.wallpaper.models.Results
+com/wizy/wallpaper/adapter/RecyclerViewAdapter.java
+ com.wizy.wallpaper.adapter.RecyclerViewAdapter
+ com.wizy.wallpaper.adapter.RecyclerViewAdapter$1
+ com.wizy.wallpaper.adapter.RecyclerViewAdapter$AdViewHolder
+ com.wizy.wallpaper.adapter.RecyclerViewAdapter$MenuItemViewHolder
+com/wizy/wallpaper/api/TLSSocketFactory.java
+ com.wizy.wallpaper.api.TLSSocketFactory
+com/wizy/wallpaper/adapter/ChipAdapter.java
+ com.wizy.wallpaper.adapter.ChipAdapter
+ com.wizy.wallpaper.adapter.ChipAdapter$MyChipAdapter
+com/wizy/wallpaper/Favorites.java
+ com.wizy.wallpaper.Favorites
+com/wizy/wallpaper/api/GetSearchData.java
+ com.wizy.wallpaper.api.GetSearchData
+ com.wizy.wallpaper.api.GetSearchData$1
+ com.wizy.wallpaper.api.GetSearchData$getEndless
+com/wizy/wallpaper/models/Urls.java
+ com.wizy.wallpaper.models.Urls
+com/wizy/wallpaper/adapter/DatabaseAdapter.java
+ com.wizy.wallpaper.adapter.DatabaseAdapter
+com/wizy/wallpaper/adapter/FavAdapter.java
+ com.wizy.wallpaper.adapter.FavAdapter
+ com.wizy.wallpaper.adapter.FavAdapter$1
+ com.wizy.wallpaper.adapter.FavAdapter$2
+ com.wizy.wallpaper.adapter.FavAdapter$3
+ com.wizy.wallpaper.adapter.FavAdapter$4
+ com.wizy.wallpaper.adapter.FavAdapter$myFavAdapter
+com/wizy/wallpaper/api/Unsplash.java
+ com.wizy.wallpaper.api.Unsplash
+com/wizy/wallpaper/models/Fav.java
+ com.wizy.wallpaper.models.Fav
+com/wizy/wallpaper/FullscreenActivity.java
+ com.wizy.wallpaper.FullscreenActivity
+ com.wizy.wallpaper.FullscreenActivity$1
+ com.wizy.wallpaper.FullscreenActivity$2
+ com.wizy.wallpaper.FullscreenActivity$3
+ com.wizy.wallpaper.FullscreenActivity$4
+ com.wizy.wallpaper.FullscreenActivity$5
+ com.wizy.wallpaper.FullscreenActivity$6
+ com.wizy.wallpaper.FullscreenActivity$7
+ com.wizy.wallpaper.FullscreenActivity$8
+ com.wizy.wallpaper.FullscreenActivity$9
+com/wizy/wallpaper/BuildConfig.java
+ com.wizy.wallpaper.BuildConfig
+com/wizy/wallpaper/adapter/CardRecyclerViewAdapter.java
+ com.wizy.wallpaper.adapter.CardRecyclerViewAdapter
+ com.wizy.wallpaper.adapter.CardRecyclerViewAdapter$1
+ com.wizy.wallpaper.adapter.CardRecyclerViewAdapter$2
+ com.wizy.wallpaper.adapter.CardRecyclerViewAdapter$AdViewHolder
+ com.wizy.wallpaper.adapter.CardRecyclerViewAdapter$MenuItemViewHolder

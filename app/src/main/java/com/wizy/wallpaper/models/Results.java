@@ -1,9 +1,14 @@
 package com.wizy.wallpaper.models;
 
-public class Results {
+import java.io.Serializable;
 
-    private Urls urls;
+public class Results implements Serializable {
+
+    private  Urls urls;
     private String id;
+
+
+    public Results() {}
 
     public String getId() {
         return id;

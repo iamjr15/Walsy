@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.huazhiyuan2008:RecyclerViewCardGallery:master@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75efdabc27aa45f8a713977080a89980/RecyclerViewCardGallery-master/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75efdabc27aa45f8a713977080a89980/RecyclerViewCardGallery-master/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/75efdabc27aa45f8a713977080a89980/RecyclerViewCardGallery-master/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

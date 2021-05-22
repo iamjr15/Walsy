@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_set_wallpaper.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\popup_set_wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_heart.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_heart.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_loading.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fullscreen.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\activity_fullscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\menu_leftsidemenu.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\menu\\leftsidemenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_chip.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\shape_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_star.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_home.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_natural.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\natural.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_favorites.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\activity_favorites.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_wallpaper_adapter.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\wallpaper_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_butterfly.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\butterfly.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_fav.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\app_bar_fav.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_star.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\xml_backup_descriptor.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\xml\\backup_descriptor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_succulent.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\succulent.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_comet.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\comet.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_icon.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\search_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_star.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_star.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_full_moon.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\full_moon.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lock.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\lock.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layers.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\layers.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rainbow.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\rainbow.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_download_background.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\download_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_chip_adapter.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\chip_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_autumn.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\autumn.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_heart.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_heart.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_star.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_star.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_banner_ad_container.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\banner_ad_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stag.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\stag.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_icon.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_download.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\download.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_heart.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_heart.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\menu_fav_menu.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\menu\\fav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pace_holder.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\pace_holder.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_moon.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\moon.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_fav_adapter.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\fav_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_wallpaper.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\custom_wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_favorites.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\layout\\content_favorites.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fav_active.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\fav_active.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_heart.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_heart.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_both.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\both.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circular_progress_bar.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\circular_progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_edittext.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\search_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_star.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_heart.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_heart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_heart.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_heart.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fav.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\fav.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_my_layer_list.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\my_layer_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_heart.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_heart.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_button.xml.flat",
+        "source": "C:\\Users\\Jigyanshu\\Desktop\\APP PROJECTS\\wallpaper\\wallpaper\\app\\src\\main\\res\\drawable\\red_button.xml"
+    }
+]

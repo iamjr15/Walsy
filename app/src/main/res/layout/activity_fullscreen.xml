@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FullscreenActivity">
+
+
+    <ImageView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_wallpaper"
+        android:scaleType="fitXY" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginTop="25dp"
+        android:background="@color/white"
+        android:gravity="center|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/app_icon"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+<RelativeLayout
+    android:id="@+id/fullscreen_content_controls"
+    android:gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_marginStart="30dp"
+    android:layout_marginBottom="40dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp">
+
+
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bmb_buttonEnum="ham"
+        app:bmb_normalColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:bmb_piecePlaceEnum="piecePlace_ham_4"
+        app:bmb_buttonPlaceEnum="buttonPlace_ham_4" />
+
+
+
+</RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/fav"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/fav"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@+id/fullscreen_content_controls"
+        android:layout_marginStart="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/fullscreen_content_controls" />
+</RelativeLayout>

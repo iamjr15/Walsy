@@ -19,4 +19,9 @@
     <string name="downloadsuccess">Image successfully downloaded</string>
     <string name="likesuccess">Image successfully added to favorites</string>
     <string name="blur_view">blur view</string>
+    <string name="search_on_any_wallpaper_category">Search on any wallpaper category!</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

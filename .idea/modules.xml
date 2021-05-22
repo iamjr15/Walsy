@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wallpaper source code.iml" filepath="$PROJECT_DIR$/.idea/modules/wallpaper source code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wallpaper.iml" filepath="$PROJECT_DIR$/.idea/modules/wallpaper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/wallpaper.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/wallpaper.app.iml" />
     </modules>
   </component>
 </project>

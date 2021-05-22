@@ -10,6 +10,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -30,25 +31,40 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.CustomTarget;
 import com.bumptech.glide.request.transition.Transition;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.security.ProviderInstaller;
 import com.view.jameson.library.CardScaleHelper;
 import com.wizy.wallpaper.Util.BlurBitmapUtils;
 import com.wizy.wallpaper.Util.DownloadUtil;
 import com.wizy.wallpaper.Util.ViewSwitchUtils;
 import com.wizy.wallpaper.adapter.CardAdapter;
+import com.wizy.wallpaper.adapter.CardRecyclerViewAdapter;
 import com.wizy.wallpaper.adapter.ChipAdapter;
+import com.wizy.wallpaper.adapter.RecyclerViewAdapter;
 import com.wizy.wallpaper.api.GetSearchData;
 import com.wizy.wallpaper.models.Download;
 import com.wizy.wallpaper.models.Results;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
+
+import nl.psdcompany.duonavigationdrawer.views.DuoDrawerLayout;
+import nl.psdcompany.duonavigationdrawer.widgets.DuoDrawerToggle;
 
 
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerWallpaper;
-    private CardAdapter myCardAdapter;
+    private CardRecyclerViewAdapter myCardAdapter;
     private List<String> chip;
+    LinkedHashMap<String, Integer> chipIcons = new LinkedHashMap<>();
+
     private List<Results> rez;
     private ImageView mBlurView;
     private final Download mDownload = new Download();
@@ -56,18 +72,24 @@ public class MainActivity extends AppCompatActivity {
     private CardScaleHelper mCardScaleHelper = null;
     private Runnable mBlurRunnable;
     private int mLastPos = -1;
-    private Toolbar toolbar;
     private DrawerLayout drawer;
     private final Context context=this;
     private static final int REQUEST_PERMISSIONS = 200;
+    public static final int ITEMS_PER_AD = 10;   // private List<Object> mDataSet;
+    private List<Object> recyclerViewItems = new ArrayList<>();
+    private static final String AD_UNIT_ID = "ca-app-pub-3940256099942544/6300978111";
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        MobileAds.initialize(this, "ca-app-pub-2315015693339914~9402497869");
+
         init();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     private void init() {
         recyclerWallpaper = findViewById(R.id.recyclerWallpaper);
         chip = new ArrayList<>();
@@ -75,16 +97,93 @@ public class MainActivity extends AppCompatActivity {
 
         setSSLCertificates();
         setChipsRecycler();
-        setWallpaperRecycler();
-        setToolbar();
-        setDrawerLayout();
         setNavigationMenu();
+        setWallpaperRecycler();
+
+        DuoDrawerLayout drawerLayout = (DuoDrawerLayout) findViewById(R.id.drawer);
+        DuoDrawerToggle drawerToggle = new DuoDrawerToggle(this, drawerLayout, toolbar,
+                R.string.navigation_drawer_open,
+                R.string.navigation_drawer_close);
+
+        drawerLayout.setDrawerListener(drawerToggle);
+        drawerToggle.syncState();
+
+    }
+
+
+
+
+    /**
+     * Adds banner ads to the items list.
+     */
+    private void addBannerAds() {
+        // Loop through the items array and place a new banner ad in every ith position in
+        // the items List.
+        for (int i = 0; i <= recyclerViewItems.size(); i += ITEMS_PER_AD) {
+            final AdView adView = new AdView(MainActivity.this);
+            adView.setAdSize(AdSize.BANNER);
+            adView.setAdUnitId(AD_UNIT_ID);
+            recyclerViewItems.add(i, adView);
+
+
+        }
     }
 
     /**
-     * If android version lower than lolipop(21)  Glide {@link com.bumptech.glide} gives SSLHandshakeException error
-     * to prevent SSLHandshakeException {@link javax.net.ssl.SSLHandshakeException},  we need to use this funtion
+     * Sets up and loads the banner ads.
      */
+    private void loadBannerAds() {
+        // Load the first banner ad in the items list (subsequent ads will be loaded automatically
+        // in sequence).
+        loadBannerAd(0);
+    }
+
+    /**
+     * Loads the banner ads in the items list.
+     */
+    private void loadBannerAd(final int index) {
+
+        if (index >= recyclerViewItems.size()) {
+            return;
+        }
+
+        Object item = recyclerViewItems.get(index);
+        if (!(item instanceof AdView)) {
+            throw new ClassCastException("Expected item at index " + index + " to be a banner ad"
+                    + " ad.");
+        }
+
+        final AdView adView = (AdView) item;
+
+        // Set an AdListener on the AdView to wait for the previous banner ad
+        // to finish loading before loading the next ad in the items list.
+        adView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                super.onAdLoaded();
+                // The previous banner ad loaded successfully, call this method again to
+                // load the next ad in the items list.
+                loadBannerAd(index + ITEMS_PER_AD);
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                // The previous banner ad failed to load. Call this method again to load
+                // the next ad in the items list.
+                Log.e("MainActivity", "The previous banner ad failed to load. Attempting to"
+                        + " load the next banner ad in the items list.");
+                loadBannerAd(index + ITEMS_PER_AD);
+            }
+        });
+
+        // Load the banner ad.
+        adView.loadAd(new AdRequest.Builder().build());
+    }
+
+
+
+
+
     private void setSSLCertificates() {
         if (android.os.Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
             try {
@@ -108,13 +207,79 @@ public class MainActivity extends AppCompatActivity {
         review.setOnMenuItemClickListener(item -> false);
     }
 
+
+
+
+    @Override
+    protected void onResume() {
+        for (Object item : recyclerViewItems) {
+            if (item instanceof AdView) {
+                AdView adView = (AdView) item;
+                adView.resume();
+            }
+        }
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        for (Object item : recyclerViewItems) {
+            if (item instanceof AdView) {
+                AdView adView = (AdView) item;
+                adView.pause();
+            }
+        }
+        super.onPause();
+    }
+
+    @Override
+    protected void onDestroy() {
+        for (Object item : recyclerViewItems) {
+            if (item instanceof AdView) {
+                AdView adView = (AdView) item;
+                adView.destroy();
+            }
+        }
+        super.onDestroy();
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     private void setWallpaperRecycler() {
-        GetSearchData.buildTest(chip.get(0),result -> MainActivity.this.runOnUiThread(() -> {
+
+        GetSearchData.buildTest(chip.get(1),result -> MainActivity.this.runOnUiThread(() -> {
             rez=result.getResult();
-            Log.i("huzzyT",result.getResult().get(0).getId());
+           // Log.i("huzzyT",result.getResult().get(1).getId());
+            recyclerViewItems.addAll(rez);
+            addBannerAds();
+            loadBannerAds();
+
+
+
             LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
             recyclerWallpaper.setLayoutManager(linearLayoutManager);
-            myCardAdapter= new CardAdapter(result.getResult(), this) {
+
+
+
+
+            myCardAdapter = new CardRecyclerViewAdapter(this,recyclerViewItems);
+            recyclerWallpaper.setAdapter(myCardAdapter);
+
+
+
+          /*  myCardAdapter= new CardAdapter(result.getResult(), this) {
                 @Override
                 public void downloadListener(String url,String id) {
                     if(checkPermission(MainActivity.this)){
@@ -128,9 +293,9 @@ public class MainActivity extends AppCompatActivity {
                         mDownload.setId(id);
                     }
                 }
-            };
+            };*/
 
-            recyclerWallpaper.setAdapter(myCardAdapter);
+
             mCardScaleHelper = new CardScaleHelper();
             mCardScaleHelper.setCurrentItemPos(0);
             mCardScaleHelper.attachToRecyclerView(recyclerWallpaper);
@@ -138,15 +303,47 @@ public class MainActivity extends AppCompatActivity {
         }));
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     private void setChipsRecycler() {
+        chip.add("Search");
+        chip.add("MINIMAL");
+        chip.add("DARK");
+        chip.add("COLORS");
         chip.add("NATURE");
         chip.add("SEASONS");
         chip.add("ART");
         chip.add("SPACE");
-        chip.add("FLOWERS");
-        chip.add("WILD LIFE");
+        chip.add("FLORAL ENVY");
+        chip.add("WILDLIFE");
+
+
+        chipIcons.put("#d41367", R.drawable.search);
+        chipIcons.put("#1373d4", R.drawable.butterfly);
+        chipIcons.put("#020101", R.drawable.moon);
+        chipIcons.put("#d687a9", R.drawable.rainbow);
+        chipIcons.put("#020101", R.drawable.natural);
+        chipIcons.put("#2a4494", R.drawable.autumn);
+        chipIcons.put("#b486ab", R.drawable.full_moon);
+        chipIcons.put("#011936", R.drawable.comet);
+        chipIcons.put("#ffbabf", R.drawable.succulent);
+        chipIcons.put("#345e5a", R.drawable.stag);
+
+
+
+      /*  chipIcons.put(R.color.Search, R.drawable.search);
+        chipIcons.put(R.color.MINIMAL, R.drawable.butterfly);
+        chipIcons.put(R.color.DARK, R.drawable.moon);
+        chipIcons.put(R.color.COLORS, R.drawable.rainbow);
+        chipIcons.put(R.color.NATURE, R.drawable.natural);
+        chipIcons.put(R.color.SEASONS, R.drawable.autumn);
+        chipIcons.put(R.color.ART, R.drawable.full_moon);
+        chipIcons.put(R.color.SPACE, R.drawable.comet);
+        chipIcons.put(R.color.FLORAL_ENVY, R.drawable.succulent);
+        chipIcons.put(R.color.WILDLIFE, R.drawable.stag);*/
+
+
         RecyclerView recyclerViewChips = findViewById(R.id.recyclerChip);
-        ChipAdapter myChipAdapter= new ChipAdapter(chip) {
+        ChipAdapter myChipAdapter= new ChipAdapter(this,chip,chipIcons) {
             @Override
             public void clickListener(String chip) {
                 setNewWallpapers(chip);
@@ -161,15 +358,28 @@ public class MainActivity extends AppCompatActivity {
 
     private void setNewWallpapers(String chipStr) {
         //We clicked chip. So we need to clean adapter.
-        if (myCardAdapter!=null) {
-            myCardAdapter.clear();
-            rez.clear();
+       if (myCardAdapter!=null) {
+         //  myCardAdapter.clear();
+           rez.clear();
+           recyclerViewItems.clear();
             myCardAdapter.notifyDataSetChanged();
         }
 
         GetSearchData.buildTest(chipStr,result -> MainActivity.this.runOnUiThread(() -> {
             rez=result.getResult();
-            myCardAdapter= new CardAdapter(result.getResult(), this) {
+
+            recyclerViewItems.addAll(rez);
+            addBannerAds();
+            loadBannerAds();
+
+
+
+            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+            recyclerWallpaper.setLayoutManager(linearLayoutManager);
+            myCardAdapter = new CardRecyclerViewAdapter(this,recyclerViewItems);
+            recyclerWallpaper.setAdapter(myCardAdapter);
+
+            /*myCardAdapter= new CardAdapter(result.getResult(), this) {
                 @Override
                 public void downloadListener(String url,String id) {
                     if(checkPermission(MainActivity.this)){
@@ -183,8 +393,7 @@ public class MainActivity extends AppCompatActivity {
                         mDownload.setId(id);
                     }
                 }
-            };
-            recyclerWallpaper.setAdapter(myCardAdapter);
+            };*/
         }));
     }
 
@@ -233,23 +442,7 @@ public class MainActivity extends AppCompatActivity {
         mBlurView.postDelayed(mBlurRunnable, 500);
     }
 
-    private void setToolbar(){
-        toolbar =  findViewById(R.id.toolbar);
-        toolbar.setBackgroundColor(getResources().getColor(R.color.white));
-        toolbar.bringToFront();
-        setSupportActionBar(toolbar);
-    }
-    private void setDrawerLayout(){
-        drawer =  findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        try {
-            drawer.addDrawerListener(toggle);
-        } catch (NullPointerException e) {
-            e.printStackTrace();
-        }
-        toggle.syncState();
-    }
+
 
     private static boolean checkPermission(Activity activity){
         return ActivityCompat.checkSelfPermission(activity, Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED;
